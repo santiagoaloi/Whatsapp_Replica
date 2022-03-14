@@ -1,4 +1,12 @@
-# whatsapp
+# WhatsApp Replica Vue2/Vuetify2
+
+
+Demo:
+
+- [Live version](https://santiagoaloi.github.io/whatsapp)
+
+<img alt="The Turd App" width="90%" src="./src/assets/snapv1.png">
+
 
 ## Project setup
 ```
