@@ -1,0 +1,5 @@
+.v-navigation-drawer {
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.2, 0.1, 0.96, 0.21);
+  transition-property: transform, visibility, width;
+}
