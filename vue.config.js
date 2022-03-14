@@ -3,6 +3,9 @@ module.exports = {
     disableHostCheck: true,
   },
 
+  // Adds the prefix /turd only when the application is built.
+  publicPath: process.env.NODE_ENV === 'production' ? '/whatsapp/' : '/',
+
   // https://cli.vuejs.org/config/#css-extract
   css: {
     extract: { ignoreOrder: true },
