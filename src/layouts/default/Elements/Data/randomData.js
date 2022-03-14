@@ -6,11 +6,11 @@ export function fetchNames(nameType) {
     case 'female':
       names = [
         'Berni',
-        'Marta',
+        'Martha',
         'Tatiana',
         'Ceci',
         'Susana',
-        'Mariela',
+        'Marie',
         'Norma',
         'Fabia',
         'Vicky',
@@ -24,56 +24,54 @@ export function fetchNames(nameType) {
         'Romi',
         'Fabiana',
         'Flor',
-        'Vir',
-        'Fran',
-        'Santi',
+        'Virginia',
       ];
       break;
     case 'male':
       names = [
-        'Tito',
-        'Mariano',
+        'Ray',
+        'John',
         'David',
-        'Gustavo',
+        'Gustav',
         'Fer',
-        'Tissio',
-        'Mario',
-        'Bernardo',
-        'Carlos',
-        'Pablo',
-        'Juan',
-        'Sandro',
-        'Agus',
-        'Fede',
-        'Marce',
-        'Sebastian',
-        'Manu',
-        'Nico',
-        'Ryann',
+        'Ron',
+        'Santiago',
+        'Peter',
+        'Charles',
+        'William',
+        'Tiago',
+        'Logan',
+        'Austin',
+        'Alejandro',
+        'Morgan',
+        'Harry',
+        'Walder',
+        'Chuck',
+        'Steven',
         'Adam',
       ];
       break;
     case 'surnames':
       names = [
-        'Zapata',
-        'Cabrera',
-        'Mindre',
-        'Minero',
+        'Bower',
+        'Potter',
+        'Stensson',
+        'Frey',
         'Salazar',
-        'Corrado',
+        'Johansson',
         'Martinessi',
-        'Sosa',
-        'Marsan',
-        'Cerezi',
-        'Gonzales',
-        'Yerbo',
-        'Jipaaldi',
+        'Mill',
+        'Stefano',
+        'Lannister',
+        'Petersson',
+        'Holsdotter',
+        'Jaldotter',
         'Kaheli',
         'Yani',
-        'Berraco',
-        'Siluvan',
-        'Cupaverde',
-        'Pirulete',
+        'Freeman',
+        'Deadman',
+        'Dores',
+        'Jones',
         'Conrad',
       ];
       break;
@@ -85,40 +83,31 @@ export function fetchNames(nameType) {
 
 export function fetchMessage() {
   const messages = [
-    'De una muneco',
-    'Menos menos...',
-    'Si pudiera, ya lo hubiera hecho hace rato',
-    'me quiero ir a la mierda ya 🗽',
-    'no tenes un termo mas grande?😍🥤',
-    'Anda a cagar... llevatelo vos, no me jodas!!',
-    '😈 Te dije que no saques el secador de pelo del cuarto...',
-    'Venis a ver la peli esta noche con pipi?',
-    'Ahora le digo.. esperame un cachito.',
-    'Y vos no tenes ese libro?🙄',
-    'Tomate el tren a las 8 y media sino te hagarra la hora pico.',
-    'Decile vos. 🤦‍♀️',
-    'Feliz cumple guachinnnnn!',
-    'Cuando es el asado? no me acuerdo la fecha, llamame',
-    'Me dijo pato que el perro del vecino esta enfermo, no lo toques!',
-    'Estamos en guerra? 🌼😇',
-    '😤 Ya me tienen podrido las vacunas de mierda, que embole ',
-    'Acabo de pisar un tereso del tamano de un bondi.',
-    'Mepa que esta noche llueve....',
-    'No sabes lo frio que esta aca!❄️❄️❄️',
-    'sabes si tenemos que comprar mas galletitas?',
-    'No llego... no hay forma 🤣',
-    'Si vos tenes uno, mandamelo ya! 😛',
-    'me parece que no.',
-    'Si vos queres, dale 🔥',
-    'Y si no viene?',
-    'Me parece que me voy a dormir ya.',
-    'No tengo paraguas, me prestas el tuyo?... te lo dejo en casa mas tarde.',
-    'Si. todo bien. :)🤞',
-    'A las 2 o 3 de la tarde 😩😩',
-    'Cocina vos entonces',
-    'Te paso el tema que me pediste. aca va.',
-    'Me dijo Berni que esta hecha mierda, que garron.. pobre',
-    'En pedo , para atrassssss',
+    'Absolutely not.',
+    'A bit fewer I would say...',
+    'IF i could have I would have',
+    'I miss travelling🗽',
+    'Bring the big one PLS!😍🥤',
+    'fuck off',
+    '😈 did he say that?',
+    'We are going out, come along!',
+    'Im picking you up in 10',
+    'I have that book already 🙄',
+    'FYI, im running late',
+    'Say WHAT?! 🤦‍♀️',
+    'happy bday mate.',
+    'SHDHS# I overslept, omw',
+    'the drums or the trumpet!',
+    'I had no clue, sorry 🌼😇',
+    '😤 this is it. or whatever... ',
+    'I think I just saw her',
+    'My grandpa has the same ones',
+    'its cold AF ❄️❄️❄️',
+    'I dont need the cookies',
+    'I got fired, finally!🤣',
+    'my wig is nicer 😛',
+    'Chocolate ice-cream and nuts',
+    'the fireplace you mean??🔥',
   ];
 
   return { data: messages };
@@ -152,7 +141,7 @@ export function fetchTimestamp() {
 
 export function fetchStatus() {
   const status = [
-    //isDeliveredRead
+    // isDeliveredRead
     {
       isInbound: 0,
       isImageOnly: 0,
@@ -162,7 +151,7 @@ export function fetchStatus() {
       isMissedCall: 0,
       isVoiceMessage: 0,
     },
-    //isNotDelivered
+    // isNotDelivered
     {
       isInbound: 0,
       isImageOnly: 0,
@@ -172,7 +161,7 @@ export function fetchStatus() {
       isMissedCall: 0,
       isVoiceMessage: 0,
     },
-    //isDeliveredUnread
+    // isDeliveredUnread
     {
       isInbound: 0,
       isImageOnly: 0,
@@ -182,7 +171,7 @@ export function fetchStatus() {
       isMissedCall: 0,
       isVoiceMessage: 0,
     },
-    //isImage(only) & isDeliveredRead
+    // isImage(only) & isDeliveredRead
     {
       isInbound: 0,
       isImageOnly: 1,
@@ -192,7 +181,7 @@ export function fetchStatus() {
       isMissedCall: 0,
       isVoiceMessage: 0,
     },
-    //isImageAndText & isDeliveredRead
+    // isImageAndText & isDeliveredRead
     {
       isInbound: 0,
       isImageOnly: 0,
@@ -203,7 +192,7 @@ export function fetchStatus() {
       isVoiceMessage: 0,
     },
 
-    //isMissedCall
+    // isMissedCall
     {
       isInbound: 1,
       isImageOnly: 0,
@@ -214,7 +203,7 @@ export function fetchStatus() {
       isVoiceMessage: 0,
     },
 
-    //isVoiceMessage
+    // isVoiceMessage
     {
       isInbound: 1,
       isImageOnly: 0,
